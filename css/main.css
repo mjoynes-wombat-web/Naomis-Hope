@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+/*NAOMI'S HOPE COLORS
+
+Purple - #685b71
+Yellow - #fdeb95
+Green - #607E4E
+
+/*GENERAL*/
+
+body{
+    padding:0;
+    margin:0;
+    font-family:'Open Sans', sans-serif;
+    background-image: url('../images/cloth_pattern_body.jpg');
+}
+
+    /*LINKS*/
+    a:link{
+        color:#607E4E;
+        text-decoration:none;
+    }
+
+    a:visited{
+        color:#685b71;
+    }
+
+    a:hover, a:active{
+        text-decoration:underline;
+    }
+
+    /*HEADINGS*/
+    h2, h3{
+        font:bold 1.3em 'Delius', cursive;
+        color:#607E4E;
+    }
+
+    h3{
+        font-size:1.1em;
+    }
+
+/*HEADER*/
+
+header{
+    background: #fff2b0 url('../images/cloth_pattern_head.jpg');
+    z-index:1000;
+    position:relative;
+}
+
+header > :last-child{
+    box-shadow: 0 .2em .4em #444;
+    overflow:visible;
+    border-bottom:1px solid #C1B4CC;
+}
+
+    /*LOGO*/
+    header #logo{
+        max-width:350px;
+        min-width:200px;
+        width:66.666%;
+        padding:10px 0 6px 0;
+        margin: 0 auto;
+    }
+
+    header #logo img{
+        width:100%;
+        min-height:50px;
+    }
+
+    /*MAIN NAVIGATION*/
+    header nav{
+        background-color:#685B71;
+    }
+
+    header nav ul{
+        list-style: none;
+        margin:0;
+        padding:0;
+    }
+
+        /*Menu Buttton*/
+        header nav > ul > li:first-child{
+            line-height: 0;
+        }
+
+        header nav > ul > li:first-child img {
+            width:15%;
+            min-width:48px;
+            max-width:53px;
+            min-height:44px;
+        }
+
+        header nav li:hover > img, header nav li:active > img{
+            background-color:rgba(0, 0, 0, 0.5);
+        }
+
+        /*Menu Items*/
+        header nav a:link, header nav a:visited, header nav a:hover, header nav a:active{
+            color:#fff;
+            text-decoration:none;
+        }
+
+        header nav a {
+            line-height:1.8em;
+            font-size:1.2em;
+            font-weight:600;
+            padding:4px 0 4px 12px;
+            display:block;
+        }
+
+        header nav a:hover {
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        header nav a:active, header nav a[title='active']{
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        header nav ul li ul {
+            display:none;
+            position:absolute;
+            background-color:#685B71;
+            width:100%;
+            box-shadow: 0 .1em .2em #000;
+            border-bottom:1px solid #C1B4CC;
+        }
+
+        /*Display when clicked or hovered*/
+        header nav > ul > li:hover > ul, header nav > ul > li:active > ul {
+            display:block;
+            padding:0 0 10px 0;
+        }
+
+        /*DESKTOP NAV*/
+        header nav ul.desktopNav{
+            display:none;
+        }
+
+/*MAIN CONTENT*/
+
+main #mission>*, main #homeInfo>section>*{
+    width:90%;
+    margin:20px auto;
+}
+
+main>section:nth-last-child(n+2), main #homeInfo>section:nth-last-child(n+2){
+    border-bottom:2px solid #fff;
+}
+
+main h2{
+    margin-bottom:5px;
+}
+
+main h2+p, main h3+p{
+    margin-top:10px;
+}
+
+main h2+h3{
+    margin-top:0;
+    margin-bottom:5px;
+}
+
+    /*MISSION*/
+    #mission{
+        margin: 0 auto;
+        padding:10px 0;
+        background:#fff2b0 url(../images/sunset_on_field_bw_mobile.jpg) center/100% auto no-repeat;
+        color:#fff;
+        text-shadow: .05em .05em .08em #222,
+                     -.05em -.05em .08em #222,
+                     .05em -.05em .08em #222,
+                     -.05em .05em .08em #222;
+        letter-spacing: .05em;
+        text-align:center;
+        font: italic normal 1.2em/1.5em 'Open Sans', cursive;
+    }
+
+    /*CALL TO ACTION*/
+    #callToAction{
+        background-color:#607E4E;
+        overflow:auto;
+    }
+
+    #callToAction h2{
+        color:#fff;
+    }
+
+    #callToAction a:link, #callToAction a:visited{
+        color:#fff;
+    }
+
+    /*STORY OF NAOMI & RUTH*/
+    #storyNaomi p span:first-of-type {
+        font-size:.75em;
+        font-weight:bold;
+        vertical-align:top;
+        color:#607E4E;
+    }
+
+/*FOOTER*/
+footer{
+    background-color:#685b71;
+    overflow:visible;
+    position:relative;
+    z-index:1000;
+    padding:1px 0;
+}
+
+footer>section>*{
+    width:90%;
+    margin:20px auto;
+}
+
+footer > :first-child {
+    box-shadow: 0 -.2em .4em #444;
+    overflow: visible;
+    border-top: 1px solid #C1B4CC;
+}
+
+footer a:link, footer a:visited{
+    color: #fff;
+}
+
+footer h2{
+    color:#fff;
+    margin-bottom:10px;
+}
+
+    /*SITEMAP*/
+    #sitemap h2+ul{
+        list-style: none;
+        padding:0;
+        margin-top:10px;
+    }
+
+    /*COPYRIGHT*/
+    #copyright p{
+        font-size:.7em;
+    }
+

@@ -1,0 +1,115 @@
+/*HEADER*/
+
+    /*LOGO*/
+    header #logo{
+        max-width:500px;
+        width:39%;
+    }
+
+    /*MAIN NAV*/
+    header nav ul.mobileNav{
+        display:none;
+    }
+
+    header nav ul.desktopNav{
+        display:block;
+    }
+
+    header nav ul li{
+        display:inline-block;
+        width:16.66666%;
+        text-align:center;
+    }
+
+    header nav ul li a{
+        padding:5px 0;
+    }
+
+/*MAIN CONTENT*/
+main h2{
+    font-size:1.8em;
+}
+
+main{
+    overflow:auto;
+}
+
+main>section:first-child{
+    box-shadow: 0 .2em .4em #444;
+    border-bottom:2px solid #fff;
+}
+
+main h2{
+    margin-top:30px;
+}
+
+    /*MISSION*/
+    #mission{
+        font-size:1.4em;
+        line-height:1.5em;
+        padding:60px 15%;
+    }
+
+    /*HOME INFO*/
+    #homeInfo{
+        max-width:1720px;
+        margin:20px auto 30px auto;
+    }
+
+    main #homeInfo>section>*{
+        margin:20px;
+    }
+
+        /*CALL TO ACTION*/
+        #callToAction{
+            float:right;
+            width:30.333333%;
+            margin:30px 1%;
+            border-radius:10px;
+            border: 2px solid #fff;
+            box-shadow: 0 .2em .4em #444;
+            text-align:right;
+        }
+
+        #callToAction>*{
+            width:80%;
+            max-width:466px;
+        }
+
+        #callToAction h2{
+            margin-top:20px;
+        }
+
+        #callToAction>h2+p{
+            margin-bottom:30px;
+        }
+
+        /*STORY of NAOMI and RUTH*/
+        #storyNaomi{
+            float:left;
+            width:66.6666666%;
+            max-width:912px;
+        }
+        #storyNaomi>*{
+            width:90%
+        }
+
+/*FOOTER*/
+    /*SITEMAP*/
+    #sitemap ul li{
+        display:inline-block;
+        padding-right:20px;
+    }
+
+    #sitemap {
+        margin-bottom:30px;
+    }
+
+    /*COPYRIGHT*/
+    #copyright{
+        text-align:right;
+    }
+
+    #copyright p{
+        font-size:.8em;
+    }

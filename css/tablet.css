@@ -1,0 +1,39 @@
+/*MAIN CONTENT*/
+
+    /*HEADINGS*/
+    main h2{
+        margin-top:25px;
+        font-size:1.6em;
+    }
+
+    main h3{
+        font-size:1.4em;
+    }
+
+    main p{
+        font-size:1.2em;
+    }
+
+    /*MISSION*/
+    #mission{
+        font-size:1.6em;
+        line-height:1.8em;
+        padding:40px 10%;
+        background:#fff2b0 url(../images/sunset_on_field_bw.jpg) center/100% auto no-repeat;
+    }
+
+    /*STORY of NAOMI and RUTH*/
+    #storyNaomi :last-child{
+        padding-bottom:20px;
+    }
+
+/*FOOTER*/
+
+footer>section>*{
+    width:95%;
+}
+
+    /*COPYRIGHT*/
+    #copyright p{
+        font-size:.9em;
+    }
